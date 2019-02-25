@@ -1,0 +1,14 @@
+package ApiTestCases;
+
+import java.io.FileNotFoundException;
+
+import Base.TestBase;
+
+public class ApiCheckAvailability extends TestBase{
+
+	public ApiCheckAvailability() throws FileNotFoundException {
+		super();
+		
+	}
+
+}

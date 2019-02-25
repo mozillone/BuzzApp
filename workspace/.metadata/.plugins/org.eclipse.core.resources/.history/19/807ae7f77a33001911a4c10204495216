@@ -1,0 +1,33 @@
+package ApiTestCases;
+
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+import io.restassured.RestAssured;
+import io.restassured.http.ContentType;
+import io.restassured.response.Response;
+import static io.restassured.RestAssured.*;
+
+public class GetJsonResponseTest {
+
+   @BeforeClass
+   public void setBaseUri () {
+
+     RestAssured.baseURI = "https://maps.googleapis.com";
+   }
+   
+   @Test
+   public void test01()  {
+     Response res  = given ().param ("query", "Churchgate Station")
+     .param ("key", "Xyz")
+     .when()
+     .get ("/maps/api/place/textsearch/json")
+     .then()
+     .contentType(ContentType.JSON)
+     .extract().response();
+
+
+     System.out.println (res.asString ());
+
+   }
+
+}

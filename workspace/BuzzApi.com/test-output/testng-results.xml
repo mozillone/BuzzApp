@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="46" passed="46">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1014458" started-at="2019-02-20T09:50:29Z" finished-at="2019-02-20T10:07:23Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1014458" started-at="2019-02-20T09:50:29Z" finished-at="2019-02-20T10:07:23Z">
+      <class name="ApiTestCases.MobileResponsiveApi">
+        <test-method status="PASS" signature="setBaseUri()[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="setBaseUri" is-config="true" duration-ms="389" started-at="2019-02-20T09:50:29Z" finished-at="2019-02-20T09:50:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBaseUri -->
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="12088" started-at="2019-02-20T09:50:29Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T09:50:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.roundhousebakery.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_CheckAvailabilityApi -->
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="9689" started-at="2019-02-20T09:50:41Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T09:50:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.peachtownschool.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_CheckAvailabilityApi -->
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="33781" started-at="2019-02-20T09:50:51Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T09:51:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.fortplainantiques.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_CheckAvailabilityApi -->
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="28063" started-at="2019-02-20T09:51:25Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T09:51:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.napavalleyframingco.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_CheckAvailabilityApi -->
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="24074" started-at="2019-02-20T09:51:53Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T09:52:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.musicbusinessmentoring.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_CheckAvailabilityApi -->
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="46929" started-at="2019-02-20T09:52:17Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T09:53:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.shopcanterburyvillage.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_CheckAvailabilityApi -->
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="28418" started-at="2019-02-20T09:53:04Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T09:53:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.clutchcity.net]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_CheckAvailabilityApi -->
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="13485" started-at="2019-02-20T09:53:32Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T09:53:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.kimballready.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_CheckAvailabilityApi -->
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="17279" started-at="2019-02-20T09:53:46Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T09:54:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.testimonialwriters.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_CheckAvailabilityApi -->
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="11969" started-at="2019-02-20T09:54:03Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T09:54:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.vincerepress.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_CheckAvailabilityApi -->
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="15220" started-at="2019-02-20T09:54:15Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T09:54:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.workathomecrafter.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_CheckAvailabilityApi -->
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="17364" started-at="2019-02-20T09:54:30Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T09:54:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.briargroveeye.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_CheckAvailabilityApi -->
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="41561" started-at="2019-02-20T09:54:48Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T09:55:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.thelovers.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_CheckAvailabilityApi -->
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="9752" started-at="2019-02-20T09:55:29Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T09:55:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.jerrymazurdesign.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_CheckAvailabilityApi -->
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="11496" started-at="2019-02-20T09:55:39Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T09:55:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.itsmedre.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_CheckAvailabilityApi -->
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="18585" started-at="2019-02-20T09:55:51Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T09:56:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.postcron.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_CheckAvailabilityApi -->
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="39735" started-at="2019-02-20T09:56:09Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T09:56:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.apsmsystems.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_CheckAvailabilityApi -->
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="46987" started-at="2019-02-20T09:56:49Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T09:57:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.distinctsigns.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_CheckAvailabilityApi -->
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="26368" started-at="2019-02-20T09:57:36Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T09:58:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.ribeirojiujitsu.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_CheckAvailabilityApi -->
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="8578" started-at="2019-02-20T09:58:02Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T09:58:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.albqhomesnm.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_CheckAvailabilityApi -->
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="24125" started-at="2019-02-20T09:58:11Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T09:58:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.westonefinance.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_CheckAvailabilityApi -->
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="12487" started-at="2019-02-20T09:58:35Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T09:58:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.visionarybrands.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_CheckAvailabilityApi -->
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="23930" started-at="2019-02-20T09:58:47Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T09:59:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.esfarmtoys.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_CheckAvailabilityApi -->
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="16886" started-at="2019-02-20T09:59:11Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T09:59:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.gvchristian.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_CheckAvailabilityApi -->
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="9304" started-at="2019-02-20T09:59:28Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T09:59:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.mccoyspots.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_CheckAvailabilityApi -->
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="26021" started-at="2019-02-20T09:59:38Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T10:00:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.jocelynmercado.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_CheckAvailabilityApi -->
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="22778" started-at="2019-02-20T10:00:04Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T10:00:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.staystrange.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_CheckAvailabilityApi -->
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="17786" started-at="2019-02-20T10:00:26Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T10:00:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.afaprofootball.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_CheckAvailabilityApi -->
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="28480" started-at="2019-02-20T10:00:44Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T10:01:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.ctlocalhoney.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_CheckAvailabilityApi -->
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="27831" started-at="2019-02-20T10:01:13Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T10:01:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.wilab.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_CheckAvailabilityApi -->
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="12038" started-at="2019-02-20T10:01:40Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T10:01:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.valkyriesquadron.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_CheckAvailabilityApi -->
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="20192" started-at="2019-02-20T10:01:53Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T10:02:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.idestatus.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_CheckAvailabilityApi -->
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="18933" started-at="2019-02-20T10:02:13Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T10:02:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.southerndemography.wildapricot.org]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_CheckAvailabilityApi -->
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="14050" started-at="2019-02-20T10:02:32Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T10:02:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.starmersystems.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_CheckAvailabilityApi -->
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="18331" started-at="2019-02-20T10:02:46Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T10:03:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.coinminefarms.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_CheckAvailabilityApi -->
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="10629" started-at="2019-02-20T10:03:04Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T10:03:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.yoursummerdebitpromotion.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_CheckAvailabilityApi -->
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="46892" started-at="2019-02-20T10:03:15Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T10:04:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.mymolecule.io]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_CheckAvailabilityApi -->
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="39197" started-at="2019-02-20T10:04:02Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T10:04:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.yourashburnhome.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_CheckAvailabilityApi -->
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="46873" started-at="2019-02-20T10:04:41Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T10:05:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.camilaparker.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_CheckAvailabilityApi -->
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="13488" started-at="2019-02-20T10:05:28Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T10:05:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.devoreplumbing.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_CheckAvailabilityApi -->
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="7723" started-at="2019-02-20T10:05:41Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T10:05:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.rightnowloads.net]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_CheckAvailabilityApi -->
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="10630" started-at="2019-02-20T10:05:49Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T10:05:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.defensivetacticstechnologies.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_CheckAvailabilityApi -->
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="24830" started-at="2019-02-20T10:05:59Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T10:06:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.defisolutions.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_CheckAvailabilityApi -->
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="11454" started-at="2019-02-20T10:06:24Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T10:06:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.katiemcgraw.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_CheckAvailabilityApi -->
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="10140" started-at="2019-02-20T10:06:36Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T10:06:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.griffinupdates.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_CheckAvailabilityApi -->
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="37360" started-at="2019-02-20T10:06:46Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T10:07:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.megaresultsmastermind.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_CheckAvailabilityApi -->
+      </class> <!-- ApiTestCases.MobileResponsiveApi -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

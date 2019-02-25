@@ -1,0 +1,18 @@
+package Util;
+
+import java.io.IOException;
+
+import org.apache.poi.hssf.usermodel.HSSFCell;
+import org.apache.poi.hssf.usermodel.HSSFSheet;
+import org.apache.poi.hssf.usermodel.HSSFWorkbook;
+
+public class ReadWriteExcel{
+
+	HSSFWorkbook workbook;
+	HSSFSheet sheet;
+	HSSFCell cell;
+	
+	public void ReadData() throws IOException{
+		
+	}
+}

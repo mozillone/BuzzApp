@@ -1,0 +1,34 @@
+package Util;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+
+import org.apache.poi.hssf.usermodel.HSSFCell;
+import org.apache.poi.hssf.usermodel.HSSFSheet;
+import org.apache.poi.hssf.usermodel.HSSFWorkbook;
+
+public class ReadWriteExcel{
+
+	HSSFWorkbook workbook;
+	HSSFSheet sheet;
+	HSSFCell cell;
+	
+	public void fbLoginLogout() throws IOException{
+		
+		File src=new File("C:\\Users\\Admin\\Desktop\\TestData.xls");
+		
+		FileInputStream finput = new FileInputStream(src);
+
+		workbook = new HSSFWorkbook(finput);
+
+		sheet= workbook.getSheetAt(0);
+		
+		for(int i=1; i<=sheet.getLastRowNum(); i++){
+		{
+
+		
+		}
+		}
+	
+

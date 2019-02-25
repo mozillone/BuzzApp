@@ -1,0 +1,14 @@
+package BuzzProjects.BuzzApi.com;
+
+import org.json.simple.JSONObject;
+import org.testng.annotations.Test;
+
+import com.jayway.restassured.RestAssured;
+import com.jayway.restassured.response.Response;
+import com.jayway.restassured.specification.RequestSpecification;
+
+public class BuzzApiTest {
+	public static void main(){
+		System.out.println("Hi CJ");
+	}
+}

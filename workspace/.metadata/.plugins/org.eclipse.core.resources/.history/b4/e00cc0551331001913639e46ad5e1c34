@@ -1,0 +1,60 @@
+package ApiTestCases;
+
+import java.io.FileNotFoundException;
+
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
+import org.testng.annotations.Test;
+
+import com.jayway.restassured.RestAssured;
+import com.jayway.restassured.response.Response;
+import com.jayway.restassured.specification.RequestSpecification;
+
+import Base.TestBase;
+
+public class ApiCheckAvailability extends TestBase{
+
+	public ApiCheckAvailability() throws FileNotFoundException {
+		super();
+		
+	}
+	@SuppressWarnings("unchecked")
+	@Test
+	public void Verify_CheckAvailabilityApi() throws ParseException{
+		RestAssured.baseURI = "http://beta.discover-prospects.com:8086/v4/listing";
+
+		RequestSpecification request = RestAssured.given().header("Authorization",
+				"Bearer 5e0a50d50229b7f0a49c2c6f814e01a9258ac927");
+
+		request.header("Content-Type", "application/json");
+
+		JSONObject requestParams = new JSONObject();
+		
+		requestParams.put("hostname", "www.brobia.com");
+		
+		request.body(requestParams.toString());
+
+		Response response = request.post("/checkavaialability");
+		
+		String responseBody = response.getBody().asString();
+		
+		System.out.println("Response Body is =>" + responseBody);
+		
+		JSONParser jp = new JSONParser();
+
+		JSONObject jsonResult = (JSONObject) (jp.parse(responseBody));
+		
+		JSONObject jsonStatus = (JSONObject) (jsonResult.get("status"));
+
+		JSONObject JsonMeta = (JSONObject) (jsonResult.get("meta"));
+
+		JSONObject jsonFP = (JSONObject) (jsonResult.get("result"));
+		
+		System.out.println(jsonResult.get("Status"));
+
+	}
+	
+	
+
+}
