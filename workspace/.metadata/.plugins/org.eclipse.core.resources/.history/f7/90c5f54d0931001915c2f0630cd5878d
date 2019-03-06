@@ -1,8 +1,0 @@
-package BuzzProjects.BuzzApi.com;
-
-
-public class BuzzApiTest {
-	public static void main(){
-		System.out.println("Hi CJ");
-	}
-}

@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="46" passed="46">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1014458" started-at="2019-02-20T09:50:29Z" finished-at="2019-02-20T10:07:23Z">
+  <suite name="Default suite" duration-ms="1011455" started-at="2019-03-04T05:36:40Z" finished-at="2019-03-04T05:53:32Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1014458" started-at="2019-02-20T09:50:29Z" finished-at="2019-02-20T10:07:23Z">
+    <test name="Default test" duration-ms="1011455" started-at="2019-03-04T05:36:40Z" finished-at="2019-03-04T05:53:32Z">
       <class name="ApiTestCases.MobileResponsiveApi">
-        <test-method status="PASS" signature="setBaseUri()[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="setBaseUri" is-config="true" duration-ms="389" started-at="2019-02-20T09:50:29Z" finished-at="2019-02-20T09:50:29Z">
+        <test-method status="PASS" signature="setBaseUri()[pri:0, instance:ApiTestCases.MobileResponsiveApi@5e3a8624]" name="setBaseUri" is-config="true" duration-ms="474" started-at="2019-03-04T11:06:40Z" finished-at="2019-03-04T11:06:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBaseUri -->
-        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="12088" started-at="2019-02-20T09:50:29Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T09:50:41Z">
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@5e3a8624]" name="Verify_CheckAvailabilityApi" duration-ms="13342" started-at="2019-03-04T11:06:41Z" data-provider="getBuzzApiTestData" finished-at="2019-03-04T11:06:54Z">
           <params>
             <param index="0">
               <value>
@@ -22,7 +22,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_CheckAvailabilityApi -->
-        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="9689" started-at="2019-02-20T09:50:41Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T09:50:51Z">
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@5e3a8624]" name="Verify_CheckAvailabilityApi" duration-ms="9824" started-at="2019-03-04T11:06:54Z" data-provider="getBuzzApiTestData" finished-at="2019-03-04T11:07:04Z">
           <params>
             <param index="0">
               <value>
@@ -33,7 +33,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_CheckAvailabilityApi -->
-        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="33781" started-at="2019-02-20T09:50:51Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T09:51:25Z">
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@5e3a8624]" name="Verify_CheckAvailabilityApi" duration-ms="34133" started-at="2019-03-04T11:07:04Z" data-provider="getBuzzApiTestData" finished-at="2019-03-04T11:07:38Z">
           <params>
             <param index="0">
               <value>
@@ -44,7 +44,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_CheckAvailabilityApi -->
-        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="28063" started-at="2019-02-20T09:51:25Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T09:51:53Z">
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@5e3a8624]" name="Verify_CheckAvailabilityApi" duration-ms="27112" started-at="2019-03-04T11:07:38Z" data-provider="getBuzzApiTestData" finished-at="2019-03-04T11:08:05Z">
           <params>
             <param index="0">
               <value>
@@ -55,7 +55,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_CheckAvailabilityApi -->
-        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="24074" started-at="2019-02-20T09:51:53Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T09:52:17Z">
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@5e3a8624]" name="Verify_CheckAvailabilityApi" duration-ms="24154" started-at="2019-03-04T11:08:05Z" data-provider="getBuzzApiTestData" finished-at="2019-03-04T11:08:29Z">
           <params>
             <param index="0">
               <value>
@@ -66,7 +66,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_CheckAvailabilityApi -->
-        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="46929" started-at="2019-02-20T09:52:17Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T09:53:04Z">
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@5e3a8624]" name="Verify_CheckAvailabilityApi" duration-ms="46880" started-at="2019-03-04T11:08:29Z" data-provider="getBuzzApiTestData" finished-at="2019-03-04T11:09:16Z">
           <params>
             <param index="0">
               <value>
@@ -77,7 +77,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_CheckAvailabilityApi -->
-        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="28418" started-at="2019-02-20T09:53:04Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T09:53:32Z">
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@5e3a8624]" name="Verify_CheckAvailabilityApi" duration-ms="30372" started-at="2019-03-04T11:09:16Z" data-provider="getBuzzApiTestData" finished-at="2019-03-04T11:09:47Z">
           <params>
             <param index="0">
               <value>
@@ -88,7 +88,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_CheckAvailabilityApi -->
-        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="13485" started-at="2019-02-20T09:53:32Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T09:53:46Z">
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@5e3a8624]" name="Verify_CheckAvailabilityApi" duration-ms="13598" started-at="2019-03-04T11:09:47Z" data-provider="getBuzzApiTestData" finished-at="2019-03-04T11:10:00Z">
           <params>
             <param index="0">
               <value>
@@ -99,7 +99,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_CheckAvailabilityApi -->
-        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="17279" started-at="2019-02-20T09:53:46Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T09:54:03Z">
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@5e3a8624]" name="Verify_CheckAvailabilityApi" duration-ms="14706" started-at="2019-03-04T11:10:00Z" data-provider="getBuzzApiTestData" finished-at="2019-03-04T11:10:15Z">
           <params>
             <param index="0">
               <value>
@@ -110,7 +110,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_CheckAvailabilityApi -->
-        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="11969" started-at="2019-02-20T09:54:03Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T09:54:15Z">
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@5e3a8624]" name="Verify_CheckAvailabilityApi" duration-ms="28604" started-at="2019-03-04T11:10:15Z" data-provider="getBuzzApiTestData" finished-at="2019-03-04T11:10:44Z">
           <params>
             <param index="0">
               <value>
@@ -121,7 +121,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_CheckAvailabilityApi -->
-        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="15220" started-at="2019-02-20T09:54:15Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T09:54:30Z">
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@5e3a8624]" name="Verify_CheckAvailabilityApi" duration-ms="16093" started-at="2019-03-04T11:10:44Z" data-provider="getBuzzApiTestData" finished-at="2019-03-04T11:11:00Z">
           <params>
             <param index="0">
               <value>
@@ -132,7 +132,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_CheckAvailabilityApi -->
-        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="17364" started-at="2019-02-20T09:54:30Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T09:54:48Z">
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@5e3a8624]" name="Verify_CheckAvailabilityApi" duration-ms="17371" started-at="2019-03-04T11:11:00Z" data-provider="getBuzzApiTestData" finished-at="2019-03-04T11:11:17Z">
           <params>
             <param index="0">
               <value>
@@ -143,7 +143,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_CheckAvailabilityApi -->
-        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="41561" started-at="2019-02-20T09:54:48Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T09:55:29Z">
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@5e3a8624]" name="Verify_CheckAvailabilityApi" duration-ms="43385" started-at="2019-03-04T11:11:17Z" data-provider="getBuzzApiTestData" finished-at="2019-03-04T11:12:00Z">
           <params>
             <param index="0">
               <value>
@@ -154,7 +154,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_CheckAvailabilityApi -->
-        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="9752" started-at="2019-02-20T09:55:29Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T09:55:39Z">
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@5e3a8624]" name="Verify_CheckAvailabilityApi" duration-ms="9680" started-at="2019-03-04T11:12:00Z" data-provider="getBuzzApiTestData" finished-at="2019-03-04T11:12:10Z">
           <params>
             <param index="0">
               <value>
@@ -165,7 +165,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_CheckAvailabilityApi -->
-        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="11496" started-at="2019-02-20T09:55:39Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T09:55:51Z">
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@5e3a8624]" name="Verify_CheckAvailabilityApi" duration-ms="12221" started-at="2019-03-04T11:12:10Z" data-provider="getBuzzApiTestData" finished-at="2019-03-04T11:12:22Z">
           <params>
             <param index="0">
               <value>
@@ -176,7 +176,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_CheckAvailabilityApi -->
-        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="18585" started-at="2019-02-20T09:55:51Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T09:56:09Z">
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@5e3a8624]" name="Verify_CheckAvailabilityApi" duration-ms="18524" started-at="2019-03-04T11:12:22Z" data-provider="getBuzzApiTestData" finished-at="2019-03-04T11:12:41Z">
           <params>
             <param index="0">
               <value>
@@ -187,7 +187,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_CheckAvailabilityApi -->
-        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="39735" started-at="2019-02-20T09:56:09Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T09:56:49Z">
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@5e3a8624]" name="Verify_CheckAvailabilityApi" duration-ms="39041" started-at="2019-03-04T11:12:41Z" data-provider="getBuzzApiTestData" finished-at="2019-03-04T11:13:20Z">
           <params>
             <param index="0">
               <value>
@@ -198,7 +198,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_CheckAvailabilityApi -->
-        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="46987" started-at="2019-02-20T09:56:49Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T09:57:36Z">
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@5e3a8624]" name="Verify_CheckAvailabilityApi" duration-ms="46972" started-at="2019-03-04T11:13:20Z" data-provider="getBuzzApiTestData" finished-at="2019-03-04T11:14:07Z">
           <params>
             <param index="0">
               <value>
@@ -209,7 +209,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_CheckAvailabilityApi -->
-        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="26368" started-at="2019-02-20T09:57:36Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T09:58:02Z">
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@5e3a8624]" name="Verify_CheckAvailabilityApi" duration-ms="26159" started-at="2019-03-04T11:14:07Z" data-provider="getBuzzApiTestData" finished-at="2019-03-04T11:14:33Z">
           <params>
             <param index="0">
               <value>
@@ -220,7 +220,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_CheckAvailabilityApi -->
-        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="8578" started-at="2019-02-20T09:58:02Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T09:58:11Z">
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@5e3a8624]" name="Verify_CheckAvailabilityApi" duration-ms="14538" started-at="2019-03-04T11:14:33Z" data-provider="getBuzzApiTestData" finished-at="2019-03-04T11:14:48Z">
           <params>
             <param index="0">
               <value>
@@ -231,7 +231,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_CheckAvailabilityApi -->
-        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="24125" started-at="2019-02-20T09:58:11Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T09:58:35Z">
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@5e3a8624]" name="Verify_CheckAvailabilityApi" duration-ms="24073" started-at="2019-03-04T11:14:48Z" data-provider="getBuzzApiTestData" finished-at="2019-03-04T11:15:12Z">
           <params>
             <param index="0">
               <value>
@@ -242,7 +242,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_CheckAvailabilityApi -->
-        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="12487" started-at="2019-02-20T09:58:35Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T09:58:47Z">
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@5e3a8624]" name="Verify_CheckAvailabilityApi" duration-ms="12389" started-at="2019-03-04T11:15:12Z" data-provider="getBuzzApiTestData" finished-at="2019-03-04T11:15:24Z">
           <params>
             <param index="0">
               <value>
@@ -253,7 +253,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_CheckAvailabilityApi -->
-        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="23930" started-at="2019-02-20T09:58:47Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T09:59:11Z">
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@5e3a8624]" name="Verify_CheckAvailabilityApi" duration-ms="31445" started-at="2019-03-04T11:15:24Z" data-provider="getBuzzApiTestData" finished-at="2019-03-04T11:15:55Z">
           <params>
             <param index="0">
               <value>
@@ -264,7 +264,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_CheckAvailabilityApi -->
-        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="16886" started-at="2019-02-20T09:59:11Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T09:59:28Z">
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@5e3a8624]" name="Verify_CheckAvailabilityApi" duration-ms="17781" started-at="2019-03-04T11:15:55Z" data-provider="getBuzzApiTestData" finished-at="2019-03-04T11:16:13Z">
           <params>
             <param index="0">
               <value>
@@ -275,7 +275,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_CheckAvailabilityApi -->
-        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="9304" started-at="2019-02-20T09:59:28Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T09:59:38Z">
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@5e3a8624]" name="Verify_CheckAvailabilityApi" duration-ms="9088" started-at="2019-03-04T11:16:13Z" data-provider="getBuzzApiTestData" finished-at="2019-03-04T11:16:22Z">
           <params>
             <param index="0">
               <value>
@@ -286,7 +286,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_CheckAvailabilityApi -->
-        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="26021" started-at="2019-02-20T09:59:38Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T10:00:04Z">
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@5e3a8624]" name="Verify_CheckAvailabilityApi" duration-ms="25369" started-at="2019-03-04T11:16:22Z" data-provider="getBuzzApiTestData" finished-at="2019-03-04T11:16:48Z">
           <params>
             <param index="0">
               <value>
@@ -297,7 +297,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_CheckAvailabilityApi -->
-        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="22778" started-at="2019-02-20T10:00:04Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T10:00:26Z">
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@5e3a8624]" name="Verify_CheckAvailabilityApi" duration-ms="20066" started-at="2019-03-04T11:16:48Z" data-provider="getBuzzApiTestData" finished-at="2019-03-04T11:17:08Z">
           <params>
             <param index="0">
               <value>
@@ -308,7 +308,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_CheckAvailabilityApi -->
-        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="17786" started-at="2019-02-20T10:00:26Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T10:00:44Z">
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@5e3a8624]" name="Verify_CheckAvailabilityApi" duration-ms="17998" started-at="2019-03-04T11:17:08Z" data-provider="getBuzzApiTestData" finished-at="2019-03-04T11:17:26Z">
           <params>
             <param index="0">
               <value>
@@ -319,7 +319,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_CheckAvailabilityApi -->
-        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="28480" started-at="2019-02-20T10:00:44Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T10:01:13Z">
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@5e3a8624]" name="Verify_CheckAvailabilityApi" duration-ms="28489" started-at="2019-03-04T11:17:26Z" data-provider="getBuzzApiTestData" finished-at="2019-03-04T11:17:54Z">
           <params>
             <param index="0">
               <value>
@@ -330,7 +330,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_CheckAvailabilityApi -->
-        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="27831" started-at="2019-02-20T10:01:13Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T10:01:40Z">
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@5e3a8624]" name="Verify_CheckAvailabilityApi" duration-ms="27800" started-at="2019-03-04T11:17:54Z" data-provider="getBuzzApiTestData" finished-at="2019-03-04T11:18:22Z">
           <params>
             <param index="0">
               <value>
@@ -341,7 +341,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_CheckAvailabilityApi -->
-        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="12038" started-at="2019-02-20T10:01:40Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T10:01:53Z">
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@5e3a8624]" name="Verify_CheckAvailabilityApi" duration-ms="7799" started-at="2019-03-04T11:18:22Z" data-provider="getBuzzApiTestData" finished-at="2019-03-04T11:18:30Z">
           <params>
             <param index="0">
               <value>
@@ -352,7 +352,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_CheckAvailabilityApi -->
-        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="20192" started-at="2019-02-20T10:01:53Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T10:02:13Z">
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@5e3a8624]" name="Verify_CheckAvailabilityApi" duration-ms="20068" started-at="2019-03-04T11:18:30Z" data-provider="getBuzzApiTestData" finished-at="2019-03-04T11:18:50Z">
           <params>
             <param index="0">
               <value>
@@ -363,7 +363,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_CheckAvailabilityApi -->
-        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="18933" started-at="2019-02-20T10:02:13Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T10:02:32Z">
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@5e3a8624]" name="Verify_CheckAvailabilityApi" duration-ms="18558" started-at="2019-03-04T11:18:50Z" data-provider="getBuzzApiTestData" finished-at="2019-03-04T11:19:09Z">
           <params>
             <param index="0">
               <value>
@@ -374,7 +374,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_CheckAvailabilityApi -->
-        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="14050" started-at="2019-02-20T10:02:32Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T10:02:46Z">
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@5e3a8624]" name="Verify_CheckAvailabilityApi" duration-ms="15161" started-at="2019-03-04T11:19:09Z" data-provider="getBuzzApiTestData" finished-at="2019-03-04T11:19:24Z">
           <params>
             <param index="0">
               <value>
@@ -385,7 +385,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_CheckAvailabilityApi -->
-        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="18331" started-at="2019-02-20T10:02:46Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T10:03:04Z">
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@5e3a8624]" name="Verify_CheckAvailabilityApi" duration-ms="18165" started-at="2019-03-04T11:19:24Z" data-provider="getBuzzApiTestData" finished-at="2019-03-04T11:19:42Z">
           <params>
             <param index="0">
               <value>
@@ -396,7 +396,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_CheckAvailabilityApi -->
-        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="10629" started-at="2019-02-20T10:03:04Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T10:03:15Z">
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@5e3a8624]" name="Verify_CheckAvailabilityApi" duration-ms="10768" started-at="2019-03-04T11:19:42Z" data-provider="getBuzzApiTestData" finished-at="2019-03-04T11:19:53Z">
           <params>
             <param index="0">
               <value>
@@ -407,7 +407,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_CheckAvailabilityApi -->
-        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="46892" started-at="2019-02-20T10:03:15Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T10:04:02Z">
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@5e3a8624]" name="Verify_CheckAvailabilityApi" duration-ms="46830" started-at="2019-03-04T11:19:53Z" data-provider="getBuzzApiTestData" finished-at="2019-03-04T11:20:39Z">
           <params>
             <param index="0">
               <value>
@@ -418,7 +418,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_CheckAvailabilityApi -->
-        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="39197" started-at="2019-02-20T10:04:02Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T10:04:41Z">
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@5e3a8624]" name="Verify_CheckAvailabilityApi" duration-ms="7317" started-at="2019-03-04T11:20:39Z" data-provider="getBuzzApiTestData" finished-at="2019-03-04T11:20:47Z">
           <params>
             <param index="0">
               <value>
@@ -429,7 +429,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_CheckAvailabilityApi -->
-        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="46873" started-at="2019-02-20T10:04:41Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T10:05:28Z">
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@5e3a8624]" name="Verify_CheckAvailabilityApi" duration-ms="46895" started-at="2019-03-04T11:20:47Z" data-provider="getBuzzApiTestData" finished-at="2019-03-04T11:21:34Z">
           <params>
             <param index="0">
               <value>
@@ -440,7 +440,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_CheckAvailabilityApi -->
-        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="13488" started-at="2019-02-20T10:05:28Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T10:05:41Z">
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@5e3a8624]" name="Verify_CheckAvailabilityApi" duration-ms="13509" started-at="2019-03-04T11:21:34Z" data-provider="getBuzzApiTestData" finished-at="2019-03-04T11:21:47Z">
           <params>
             <param index="0">
               <value>
@@ -451,7 +451,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_CheckAvailabilityApi -->
-        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="7723" started-at="2019-02-20T10:05:41Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T10:05:49Z">
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@5e3a8624]" name="Verify_CheckAvailabilityApi" duration-ms="7798" started-at="2019-03-04T11:21:47Z" data-provider="getBuzzApiTestData" finished-at="2019-03-04T11:21:55Z">
           <params>
             <param index="0">
               <value>
@@ -462,7 +462,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_CheckAvailabilityApi -->
-        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="10630" started-at="2019-02-20T10:05:49Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T10:05:59Z">
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@5e3a8624]" name="Verify_CheckAvailabilityApi" duration-ms="10640" started-at="2019-03-04T11:21:55Z" data-provider="getBuzzApiTestData" finished-at="2019-03-04T11:22:06Z">
           <params>
             <param index="0">
               <value>
@@ -473,7 +473,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_CheckAvailabilityApi -->
-        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="24830" started-at="2019-02-20T10:05:59Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T10:06:24Z">
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@5e3a8624]" name="Verify_CheckAvailabilityApi" duration-ms="26705" started-at="2019-03-04T11:22:06Z" data-provider="getBuzzApiTestData" finished-at="2019-03-04T11:22:32Z">
           <params>
             <param index="0">
               <value>
@@ -484,7 +484,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_CheckAvailabilityApi -->
-        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="11454" started-at="2019-02-20T10:06:24Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T10:06:36Z">
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@5e3a8624]" name="Verify_CheckAvailabilityApi" duration-ms="11458" started-at="2019-03-04T11:22:32Z" data-provider="getBuzzApiTestData" finished-at="2019-03-04T11:22:44Z">
           <params>
             <param index="0">
               <value>
@@ -495,7 +495,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_CheckAvailabilityApi -->
-        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="10140" started-at="2019-02-20T10:06:36Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T10:06:46Z">
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@5e3a8624]" name="Verify_CheckAvailabilityApi" duration-ms="10349" started-at="2019-03-04T11:22:44Z" data-provider="getBuzzApiTestData" finished-at="2019-03-04T11:22:54Z">
           <params>
             <param index="0">
               <value>
@@ -506,7 +506,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_CheckAvailabilityApi -->
-        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@7cd62f43]" name="Verify_CheckAvailabilityApi" duration-ms="37360" started-at="2019-02-20T10:06:46Z" data-provider="getBuzzApiTestData" finished-at="2019-02-20T10:07:23Z">
+        <test-method status="PASS" signature="Verify_CheckAvailabilityApi(java.lang.String)[pri:0, instance:ApiTestCases.MobileResponsiveApi@5e3a8624]" name="Verify_CheckAvailabilityApi" duration-ms="37393" started-at="2019-03-04T11:22:54Z" data-provider="getBuzzApiTestData" finished-at="2019-03-04T11:23:32Z">
           <params>
             <param index="0">
               <value>

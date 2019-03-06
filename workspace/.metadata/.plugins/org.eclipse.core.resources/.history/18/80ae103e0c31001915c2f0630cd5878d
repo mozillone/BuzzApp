@@ -1,5 +1,0 @@
-package ApiTestCases;
-
-public class ApiCheckAvailability extends TestBase{
-
-}

@@ -14,6 +14,7 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.ParseException;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -124,6 +125,13 @@ public class MobileResponsiveApi {
 		Object data[][] = Util.ExcelReader.getTestData(sheetName);
 		return data;
 	}
-}
 
+
+@AfterClass
+public void Quit() {
+	
+	System.out.println("Completed the execution");
+	
+}
+}
 
