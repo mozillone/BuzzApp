@@ -35,7 +35,6 @@ public class GetJsonResponseTest {
 
 
      System.out.println (res.asString ());
-     System.out.println("Hi this is text messages");
 
    }
 
