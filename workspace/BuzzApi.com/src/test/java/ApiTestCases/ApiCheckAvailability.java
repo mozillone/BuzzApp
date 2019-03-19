@@ -39,6 +39,10 @@ public class ApiCheckAvailability extends TestBase{
 
 		Response response = request.post("/checkavaialability");
 		
+		long responsetime = response.getTime();
+		
+		System.out.println(responsetime);
+		
 		String responseBody = response.getBody().asString();
 		
 		System.out.println("Response Body is =>" + responseBody);

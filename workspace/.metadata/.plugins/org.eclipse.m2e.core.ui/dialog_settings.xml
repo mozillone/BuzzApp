@@ -44,6 +44,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\Scripts\4195\workspace\BuzzApi.com\src\test\java\ApiTestCases\MobileResponsiveApi.java"/>
 			<item value="D:\Scripts\4195\workspace\BuzzApi.com"/>
 			<item value="D:\Scripts\4195\workspace\BuzzApi.com\src\test\java\BuzzProjects\BuzzApi\com\BuzzApiTest.java"/>
 		</list>
@@ -58,17 +59,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="AppTest.BuzzAppTest.com"/>
-			<item value="AppTest.Testapplo"/>
-			<item value="AppTest.AppTest.com"/>
+			<item value="EmpHrms.EmpHrms.com"/>
 		</list>
 		<list key="groupId">
-			<item value="AppTest"/>
+			<item value="EmpHrms"/>
 		</list>
 		<list key="artifactId">
-			<item value="BuzzAppTest.com"/>
-			<item value="Testapplo"/>
-			<item value="AppTest.com"/>
+			<item value="EmpHrms.com"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

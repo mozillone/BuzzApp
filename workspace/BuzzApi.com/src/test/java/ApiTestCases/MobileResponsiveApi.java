@@ -14,6 +14,7 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.ParseException;
+import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
@@ -28,7 +29,7 @@ public class MobileResponsiveApi {
 	public MobileResponsiveApi() {
 		
 	}
-	String sheetName = "Sheet1";
+	String sheetName = "Sheet2";
 	
 	
 	@BeforeClass
@@ -56,9 +57,24 @@ public class MobileResponsiveApi {
 
 		Response response = request.post("/website/responsive");
 		
+		long time = response.getTime();
+		
+		System.out.println(time);
+		
 		//String responseBody = response.getBody().asString();
 		
 		String responseBody = response.getBody().prettyPrint();
+		
+		int status = 200;
+		
+		//int statuscode = response.getStatusCode();
+		
+		
+		//Assert.assertEquals(status, statuscode);
+		
+
+		Assert.assertEquals(status,response.getStatusCode());
+		
 		
 		//System.out.println("Response Body is =>" + responseBody);
 		
@@ -86,7 +102,7 @@ public class MobileResponsiveApi {
 		XSSFWorkbook workbook = new XSSFWorkbook(); 
 		 XSSFSheet sheet = workbook.createSheet("student Details"); 
 		 Map<String, Object[]> data = new TreeMap<String, Object[]>(); 
-	        data.put("1", new Object[]{ "ID", "NAME", "LASTNAME" }); 
+	        data.put("1", new Object[]{ "status", "error", "request_reference_id" }); 
 	        data.put("2", new Object[]{ 1, "Pankaj", "Kumar" }); 
 	        data.put("3", new Object[]{ 2, "Prakashni", "Yadav" }); 
 	        data.put("4", new Object[]{ 3, "Ayan", "Mondal" }); 

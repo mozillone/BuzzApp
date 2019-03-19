@@ -51,7 +51,7 @@ public class ExcelExample extends TestBase{
 
         } catch (FileNotFoundException e) {
             e.printStackTrace();
-        } catch (IOException e) {
+        } catch (IOException e) { 
             e.printStackTrace();
         }
     }
