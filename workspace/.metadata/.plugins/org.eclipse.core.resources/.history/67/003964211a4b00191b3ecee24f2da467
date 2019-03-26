@@ -1,0 +1,16 @@
+package Base;
+
+import java.util.Properties;
+
+public class TestBase {
+	
+	public static Properties prop;
+	
+	public  TestBase(){
+		
+		prop = new Properties();
+		FileInputstream fis = new FileInputStream();
+		
+	}
+
+}

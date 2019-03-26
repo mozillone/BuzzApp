@@ -184,7 +184,7 @@
 			<groupId>org.apache.poi</groupId>
 			<artifactId>openxml4j</artifactId>
 			<version>1.0-beta</version>
-		</dependency>
+		</dependency>	
 
 		<dependency>
 			<groupId>com.relevantcodes</groupId>
