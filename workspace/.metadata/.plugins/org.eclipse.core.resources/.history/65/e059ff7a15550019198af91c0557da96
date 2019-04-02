@@ -1,0 +1,25 @@
+package testcases;
+
+import java.io.FileNotFoundException;
+
+import org.testng.annotations.BeforeMethod;
+
+import Base.TestBase;
+import Pages.LoginPage;
+
+public class LoginpageTest extends TestBase{
+	
+	LoginPage loginpage;
+
+	public LoginpageTest() throws FileNotFoundException {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
+	@BeforeMethod
+	public void setup() throws FileNotFoundException{
+		initialization();
+		loginpage = new LoginPage();
+	}
+
+}

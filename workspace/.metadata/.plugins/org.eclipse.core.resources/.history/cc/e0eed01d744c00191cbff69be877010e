@@ -1,9 +1,0 @@
-package Utils;
-
-public class ReadExcel {
-	
-	public ReadExcel(){
-		
-	}
-
-}

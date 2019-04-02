@@ -1,6 +1,7 @@
 package Utils;
 
 import java.io.BufferedInputStream;
+
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -9,7 +10,13 @@ import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 
-public class ReadExcel {
+import Base.TestBase;
+
+
+public class ReadExcel extends TestBase{
+	
+	public static long PAGE_LOAD_TIMEOUT = 20;
+	public static long IMPLICIT_WAIT = 20;
 	
 	public ReadExcel()throws FileNotFoundException {
 		

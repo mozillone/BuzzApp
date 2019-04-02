@@ -1,0 +1,22 @@
+package testcases;
+
+import java.io.FileNotFoundException;
+
+import Base.TestBase;
+import Pages.HomePage;
+import Pages.LoginPage;
+
+public class UserPageTest extends TestBase{
+
+	LoginPage loginpage;
+	HomePage homepage;
+	
+	public UserPageTest() throws FileNotFoundException {
+		super();
+		
+		 loginpage = new LoginPage();
+		 homepage = new homepage();
+	}
+
+	
+}
