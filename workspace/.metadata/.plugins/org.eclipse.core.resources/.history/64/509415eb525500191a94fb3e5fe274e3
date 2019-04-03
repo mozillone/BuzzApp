@@ -45,8 +45,6 @@ public class UserPageTest extends TestBase{
 		homepage = homepage.ClickonNewUserLink();
 		//String title = loginpage.ValidateLoginPagetitle(); 
 		//Assert.assertEquals(title, "OrangeHRM");
-		
-		this.takeSnapShot(driver, "c://test.png") ;   
 	}
 	
 	@AfterClass
