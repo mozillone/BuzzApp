@@ -39,12 +39,13 @@ public class HomePageTest extends TestBase{
 	}*/
 	
 	@Test(priority=1)
-	public void verifyCreateUserPage() throws FileNotFoundException{
+	public HomePageTest verifyCreateUserPage() throws FileNotFoundException{
 		homepage = loginpage.login(prop.getProperty("username"), prop.getProperty("password"));
 		Assert.assertTrue(driver.getPageSource().contains("Dashboard")); 
 		homepage = homepage.ClickonNewUserLink(); 
 		//String title = loginpage.ValidateLoginPagetitle(); 
 		//Assert.assertEquals(title, "OrangeHRM");
+		return new HomePageTest();
 		
 		//this.takeSnapShot(driver, "c://test.png") ;   
 	}

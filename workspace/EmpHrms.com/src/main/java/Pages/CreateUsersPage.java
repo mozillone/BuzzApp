@@ -43,7 +43,7 @@ public class CreateUsersPage extends TestBase{
 	
 	//Actions
 	
-	public HomePage Createuser() throws FileNotFoundException{
+	public CreateUsersPage Createuser() throws FileNotFoundException{
 		AddButton.click();
 		Select Role = new Select(UserRoleDropDown);
 		Role.selectByVisibleText("ESS");
@@ -58,7 +58,7 @@ public class CreateUsersPage extends TestBase{
 		SaveButton.click();
 		
 		
-		return new HomePage();
+		return new CreateUsersPage();
 		
 	}
 

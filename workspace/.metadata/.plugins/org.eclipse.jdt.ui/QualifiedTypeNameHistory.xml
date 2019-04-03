@@ -52,9 +52,11 @@
 <fullyQualifiedTypeName name="org.openqa.selenium.support.PageFactory"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.interactions.Actions"/>
 <fullyQualifiedTypeName name="org.testng.annotations.AfterClass"/>
-<fullyQualifiedTypeName name="Base.TestBase"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.TakesScreenshot"/>
 <fullyQualifiedTypeName name="java.io.File"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.OutputType"/>
 <fullyQualifiedTypeName name="org.apache.commons.io.FileUtils"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.ui.Select"/>
+<fullyQualifiedTypeName name="Base.TestBase"/>
+<fullyQualifiedTypeName name="Pages.CreateUsersPage"/>
 </qualifiedTypeNameHistroy>
