@@ -1,25 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13762" started-at="2019-04-02T11:16:01Z" finished-at="2019-04-02T11:16:15Z">
+  <suite name="Default suite" duration-ms="22271" started-at="2019-04-03T09:50:51Z" finished-at="2019-04-03T09:51:14Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13762" started-at="2019-04-02T11:16:01Z" finished-at="2019-04-02T11:16:15Z">
-      <class name="testcases.UserPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.UserPageTest@20398b7c]" name="setup" is-config="true" duration-ms="6772" started-at="2019-04-02T16:46:01Z" finished-at="2019-04-02T16:46:08Z">
+    <test name="Default test" duration-ms="22271" started-at="2019-04-03T09:50:51Z" finished-at="2019-04-03T09:51:14Z">
+      <class name="testcases.LoginpageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.LoginpageTest@47c62251]" name="setup" is-config="true" duration-ms="7025" started-at="2019-04-03T15:20:51Z" finished-at="2019-04-03T15:20:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyCreateUserPage()[pri:2, instance:testcases.UserPageTest@20398b7c]" name="verifyCreateUserPage" duration-ms="6301" started-at="2019-04-02T16:46:08Z" finished-at="2019-04-02T16:46:14Z">
+        <test-method status="PASS" signature="loginpageTitleTest()[pri:1, instance:testcases.LoginpageTest@47c62251]" name="loginpageTitleTest" duration-ms="25" started-at="2019-04-03T15:20:58Z" finished-at="2019-04-03T15:20:58Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyCreateUserPage -->
-        <test-method status="PASS" signature="close()[pri:0, instance:testcases.UserPageTest@20398b7c]" name="close" is-config="true" duration-ms="660" started-at="2019-04-02T16:46:14Z" finished-at="2019-04-02T16:46:15Z">
+        </test-method> <!-- loginpageTitleTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.LoginpageTest@47c62251]" name="setup" is-config="true" duration-ms="6579" started-at="2019-04-03T15:20:58Z" finished-at="2019-04-03T15:21:05Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- testcases.UserPageTest -->
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="crmLogoImageTest()[pri:2, instance:testcases.LoginpageTest@47c62251]" name="crmLogoImageTest" duration-ms="45" started-at="2019-04-03T15:21:05Z" finished-at="2019-04-03T15:21:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crmLogoImageTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.LoginpageTest@47c62251]" name="setup" is-config="true" duration-ms="6409" started-at="2019-04-03T15:21:05Z" finished-at="2019-04-03T15:21:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginPageTest()[pri:3, instance:testcases.LoginpageTest@47c62251]" name="loginPageTest" duration-ms="2159" started-at="2019-04-03T15:21:11Z" finished-at="2019-04-03T15:21:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTest -->
+      </class> <!-- testcases.LoginpageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

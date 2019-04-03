@@ -12,21 +12,21 @@ import Pages.HomePage;
 import Pages.LoginPage;
 import junit.framework.Assert;
 
-public class UserPageTest extends TestBase{
+public class HomePageTest extends TestBase{
 
 	LoginPage loginpage;
 	HomePage homepage;
 	
-	public UserPageTest() throws FileNotFoundException {
-		super();
+	public HomePageTest() throws FileNotFoundException {
+		super(); 
 		
-		 loginpage = new LoginPage();
-		 homepage = new HomePage();
+		 loginpage = new LoginPage(); 
+		 homepage = new HomePage(); 
 	}
 
 	@BeforeMethod
 	public void setup() throws FileNotFoundException{
-		initialization();
+		initialization(); 
 		loginpage = new LoginPage(); 
 		
 }
@@ -42,16 +42,16 @@ public class UserPageTest extends TestBase{
 	public void verifyCreateUserPage() throws FileNotFoundException{
 		homepage = loginpage.login(prop.getProperty("username"), prop.getProperty("password"));
 		Assert.assertTrue(driver.getPageSource().contains("Dashboard")); 
-		homepage = homepage.ClickonNewUserLink();
+		homepage = homepage.ClickonNewUserLink(); 
 		//String title = loginpage.ValidateLoginPagetitle(); 
 		//Assert.assertEquals(title, "OrangeHRM");
 		
-		this.takeSnapShot(driver, "c://test.png") ;   
+		//this.takeSnapShot(driver, "c://test.png") ;   
 	}
 	
 	@AfterClass
 	public void close(){
-		driver.quit();
+		driver.quit(); 
 	}
 
 }

@@ -22,6 +22,9 @@ public class HomePage extends TestBase{
 	@FindBy(xpath="/html/body/div[1]/div[2]/ul/li[1]/a/b")
 	WebElement AdminTab;
 	
+	@FindBy(id="btnAdd")
+	WebElement AddButton;
+	
 	//Initializing the Page Objects:
 
 	public HomePage() throws FileNotFoundException {
