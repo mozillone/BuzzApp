@@ -54,8 +54,6 @@ public class CreateUsersPage extends TestBase{
 		Status.selectByVisibleText("Enabled");
 		
 		UserPassword.sendKeys("Password@123");
-		UserConfirmPassword.sendKeys("Password@123");
-		SaveButton.click();
 		
 		
 		return new HomePage();

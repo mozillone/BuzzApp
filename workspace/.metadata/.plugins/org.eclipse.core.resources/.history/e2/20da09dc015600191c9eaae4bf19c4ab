@@ -47,17 +47,6 @@ public class CreateUsersPage extends TestBase{
 		AddButton.click();
 		Select Role = new Select(UserRoleDropDown);
 		Role.selectByVisibleText("ESS");
-		EmployeeName.sendKeys("Bhuvan");
-		UserNameField.sendKeys("QualityAnalyst");
-		
-		Select Status = new Select(UserRoleDropDown);
-		Status.selectByVisibleText("Enabled");
-		
-		UserPassword.sendKeys("Password@123");
-		UserConfirmPassword.sendKeys("Password@123");
-		SaveButton.click();
-		
-		
 		return new HomePage();
 		
 	}

@@ -55,7 +55,6 @@ public class CreateUsersPage extends TestBase{
 		
 		UserPassword.sendKeys("Password@123");
 		UserConfirmPassword.sendKeys("Password@123");
-		SaveButton.click();
 		
 		
 		return new HomePage();
