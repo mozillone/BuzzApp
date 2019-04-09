@@ -1,0 +1,80 @@
+package Pages;
+
+import java.io.FileNotFoundException;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
+
+import Base.TestBase;
+
+public class CreateUsersPage extends TestBase{
+	
+	//Page Factory - OR:
+	
+	@FindBy(id="btnAdd")
+	WebElement AddButton;
+	
+	@FindBy(id="systemUser_userType")
+	WebElement UserRoleDropDown;
+	
+	@FindBy(id="systemUser_employeeName_empName")
+	WebElement EmployeeName;
+	
+	@FindBy(id="systemUser_userName")
+	WebElement UserNameField;
+	
+	@FindBy(id="systemUser_status")
+	WebElement StatusDropDown;
+	
+	@FindBy(id="systemUser_password")
+	WebElement UserPassword;
+	
+	@FindBy(id="systemUser_confirmPassword")
+	WebElement UserConfirmPassword;
+	
+	@FindBy(id="btnSave")
+	WebElement SaveButton;
+	
+	@FindBy(id="search_form")
+	WebElement SearchButton;
+	
+	//Initializing the Page Objects:
+
+	public CreateUsersPage() throws FileNotFoundException {
+		super();
+		// TODO Auto-generated constructor stub
+		PageFactory.initElements(driver, this);
+	}
+	
+	//Actions
+	
+	public CreateUsersPage Createuser() throws FileNotFoundException, InterruptedException{
+		Thread.sleep(1000l);
+		
+		SearchButton.click();
+		System.out.println("Hai How are you");
+		
+		WebElement formElement = driver.findElement(By.id("frmList_ohrmListComponent"));
+		AddButton.click();
+		
+		Select Role = new Select(UserRoleDropDown);
+		Role.selectByVisibleText("ESS");
+		EmployeeName.sendKeys("Bhuvan");
+		UserNameField.sendKeys("QualityAnalyst");
+		
+		Select Status = new Select(UserRoleDropDown);
+		Status.selectByVisibleText("Enabled");
+		
+		UserPassword.sendKeys("Password@123");
+		UserConfirmPassword.sendKeys("Password@123");
+		SaveButton.click();
+		
+		
+		return new CreateUsersPage();
+		
+	}
+
+}

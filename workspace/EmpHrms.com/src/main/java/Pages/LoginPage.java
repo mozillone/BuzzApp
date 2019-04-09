@@ -35,19 +35,20 @@ public class LoginPage extends TestBase{
 	//Actions:
 	
 	public String ValidateLoginPagetitle(){
-		return driver.getTitle();
+		return driver.getTitle(); 
 		
 	}
 	
 	
 	public boolean ValidateHrmsLogo(){
-		return HrmsLogo.isDisplayed();
+		return HrmsLogo.isDisplayed(); 
 		
 	}
 	
 	public HomePage login(String username, String password) throws FileNotFoundException{
 		Username.sendKeys(username);
 		Password.sendKeys(password);
+		
 		LoginButton.click();
 		
 		return new HomePage();

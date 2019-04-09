@@ -1,0 +1,16 @@
+package Pages;
+
+import java.io.FileNotFoundException;
+
+import Base.TestBase;
+
+public class UserDashboardPage extends TestBase{
+
+	public UserDashboardPage() throws FileNotFoundException {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	
+
+}

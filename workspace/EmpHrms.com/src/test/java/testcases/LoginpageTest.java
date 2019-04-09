@@ -23,7 +23,7 @@ public class LoginpageTest extends TestBase{
 	
 	@BeforeMethod
 	public void setup() throws FileNotFoundException{
-		initialization();
+		initialization(); 
 		loginpage = new LoginPage(); 
 			
 		
@@ -32,25 +32,28 @@ public class LoginpageTest extends TestBase{
 	@Test(priority=1)
 	public void loginpageTitleTest(){
 		String title = loginpage.ValidateLoginPagetitle(); 
-		Assert.assertEquals(title, "OrangeHRM");
+		Assert.assertEquals(title, "OrangeHRM"); 
 	}
 	
 	@Test(priority=2)
 	public void crmLogoImageTest(){
 		boolean flag = loginpage.ValidateHrmsLogo(); 
-		Assert.assertTrue(flag);
+		Assert.assertTrue(flag);  
 	}
 	
 	@Test(priority=3)
-	public void loginPageTest() throws FileNotFoundException{
-		homepage = loginpage.login(prop.getProperty("username"), prop.getProperty("password"));
+	public void loginPageTest() throws FileNotFoundException, InterruptedException{
+		
+		homepage = loginpage.login(prop.getProperty("username1"), prop.getProperty("password1"));
+		
+		Thread.sleep(10000l);
 		Assert.assertTrue(driver.getPageSource().contains("Dashboard")); 
 		//Assert.assertTrue(driver.findElement(By.id("menu_admin_viewAdminModule")));
 	}
 	
 	@AfterMethod
 	public void close(){
-		driver.quit();
+		driver.quit(); 
 	}
 
 }
