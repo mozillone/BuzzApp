@@ -17,7 +17,7 @@ public class LoginpageTest extends TestBase{
 	HomePage homepage;
 
 	public LoginpageTest() throws FileNotFoundException {
-		super();
+		super(); 
 		// TODO Auto-generated constructor stub
 	}
 	
@@ -31,7 +31,7 @@ public class LoginpageTest extends TestBase{
 	
 	@Test(priority=1)
 	public void loginpageTitleTest(){
-		String title = loginpage.ValidateLoginPagetitle(); 
+		String title = loginpage.ValidateLoginPagetitle();  
 		Assert.assertEquals(title, "OrangeHRM"); 
 	}
 	
@@ -46,7 +46,7 @@ public class LoginpageTest extends TestBase{
 		
 		homepage = loginpage.login(prop.getProperty("username1"), prop.getProperty("password1"));
 		
-		Thread.sleep(10000l);
+		Thread.sleep(10000l); 
 		Assert.assertTrue(driver.getPageSource().contains("Dashboard")); 
 		//Assert.assertTrue(driver.findElement(By.id("menu_admin_viewAdminModule")));
 	}

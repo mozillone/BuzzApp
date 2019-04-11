@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;ApiTestCases.ApiCheckAvailability&apos; to &apos;Check_Availability_Api&apos;&#x0D;&#x0A;- Original project: &apos;BuzzApi.com&apos;&#x0D;&#x0A;- Original element: &apos;ApiTestCases.ApiCheckAvailability&apos;&#x0D;&#x0A;- Renamed element: &apos;ApiTestCases.Check_Availability_Api&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ApiCheckAvailability&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/test\/java&lt;ApiTestCases{ApiCheckAvailability.java[ApiCheckAvailability" matchStrategy="1" name="Check_Availability_Api" qualified="false" references="true" similarDeclarations="false" stamp="1554988036692" textual="false" version="1.0"/>
+</session>

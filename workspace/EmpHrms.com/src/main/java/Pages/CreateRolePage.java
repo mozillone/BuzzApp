@@ -53,7 +53,7 @@ public class CreateRolePage extends TestBase{
 	
 	//Actions
 	
-	public CreateRolePage Createuser() throws FileNotFoundException, InterruptedException{
+	public CreateRolePage Createrole() throws FileNotFoundException, InterruptedException{
 		Thread.sleep(1000l);
 		
 		//SearchButton.click();

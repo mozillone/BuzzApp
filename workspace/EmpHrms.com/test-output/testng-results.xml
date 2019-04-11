@@ -2,23 +2,23 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22087" started-at="2019-04-09T06:33:03Z" finished-at="2019-04-09T06:33:25Z">
+  <suite name="Default suite" duration-ms="19368" started-at="2019-04-11T07:11:03Z" finished-at="2019-04-11T07:11:22Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22087" started-at="2019-04-09T06:33:03Z" finished-at="2019-04-09T06:33:25Z">
+    <test name="Default test" duration-ms="19368" started-at="2019-04-11T07:11:03Z" finished-at="2019-04-11T07:11:22Z">
       <class name="testcases.CreateRoleTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.CreateRoleTest@20398b7c]" name="setup" is-config="true" duration-ms="8237" started-at="2019-04-09T12:03:03Z" finished-at="2019-04-09T12:03:11Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.CreateRoleTest@2286778]" name="setup" is-config="true" duration-ms="7497" started-at="2019-04-11T12:41:03Z" finished-at="2019-04-11T12:41:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="ValidateCreateUser()[pri:1, instance:testcases.CreateRoleTest@20398b7c]" name="ValidateCreateUser" duration-ms="13825" started-at="2019-04-09T12:03:11Z" finished-at="2019-04-09T12:03:25Z">
+        <test-method status="FAIL" signature="ValidateCreateUser()[pri:1, instance:testcases.CreateRoleTest@2286778]" name="ValidateCreateUser" duration-ms="11193" started-at="2019-04-11T12:41:10Z" finished-at="2019-04-11T12:41:21Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy8.sendKeys(Unknown Source)
-	at Pages.CreateRolePage.Createuser(CreateRolePage.java:86)
+	at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)
+	at Pages.CreateRolePage.Createrole(CreateRolePage.java:86)
 	at testcases.CreateRoleTest.ValidateCreateUser(CreateRoleTest.java:52)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
@@ -51,6 +51,10 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateCreateUser -->
+        <test-method status="PASS" signature="close()[pri:0, instance:testcases.CreateRoleTest@2286778]" name="close" is-config="true" duration-ms="656" started-at="2019-04-11T12:41:21Z" finished-at="2019-04-11T12:41:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
       </class> <!-- testcases.CreateRoleTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

@@ -35,7 +35,7 @@ public class CreateRoleTest extends TestBase{
 	@BeforeMethod
 	public void setup() throws FileNotFoundException{
 		initialization(); 
-		loginpage = new LoginPage(); 
+		loginpage = new LoginPage();  
 		homepage = new HomePage(); 
 		 
 	}
@@ -46,21 +46,21 @@ public class CreateRoleTest extends TestBase{
 		Thread.sleep(1000l); 
 		homepage = loginpage.login(prop.getProperty("username1"), prop.getProperty("password1"));
 		Thread.sleep(1000l); 
-		Assert.assertTrue(driver.getPageSource().contains("Dashboard")); 
+		Assert.assertTrue(driver.getPageSource().contains("Dashboard"));  
 		homepage = homepage.ClickonNewUserLink(); 
 		//createuserpage = createuserpage.Createuser();
-		createrolepage = createrolepage.Createuser(); 
+		createrolepage = createrolepage.Createrole(); 
 		
 		
 	}
 	
 
 	
-	/*@AfterMethod
+	@AfterMethod
 	public void close(){
 		driver.quit(); 
 	}
-*/
+
 	
 
 }

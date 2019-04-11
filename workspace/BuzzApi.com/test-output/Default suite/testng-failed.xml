@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="ApiTestCases.ApiCheckAvailability">
+      <class name="ApiTestCases.Domain_Details_Api">
         <methods>
           <include name="Verify_CheckAvailabilityApi"/>
         </methods>
-      </class> <!-- ApiTestCases.ApiCheckAvailability -->
+      </class> <!-- ApiTestCases.Domain_Details_Api -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

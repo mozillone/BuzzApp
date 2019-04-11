@@ -5,6 +5,7 @@
     <classes>
       <class name="testcases.CreateRoleTest">
         <methods>
+          <include name="close"/>
           <include name="ValidateCreateUser"/>
           <include name="setup"/>
         </methods>
