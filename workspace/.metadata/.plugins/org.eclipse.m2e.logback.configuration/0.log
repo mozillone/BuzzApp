@@ -3281,3 +3281,15 @@ org.eclipse.core.runtime.CoreException: Launch configuration Testapplication ref
 2019-04-11 18:42:35,354 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Scripts\4195\workspace\BuzzApi.com\src\main\resources
 2019-04-11 18:42:35,355 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-04-11 18:42:35,355 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Scripts\4195\workspace\BuzzApi.com\src\test\resources
+2019-04-11 19:31:48,903 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-11 19:31:48,907 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Scripts\4195\workspace\BuzzApi.com\src\main\resources
+2019-04-11 19:31:48,910 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-11 19:31:48,910 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Scripts\4195\workspace\BuzzApi.com\src\test\resources
+2019-04-11 19:31:50,330 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-11 19:31:50,330 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Scripts\4195\workspace\BuzzApi.com\src\main\resources
+2019-04-11 19:31:50,333 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-11 19:31:50,333 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Scripts\4195\workspace\BuzzApi.com\src\test\resources
+2019-04-11 19:32:14,065 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-11 19:32:14,066 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Scripts\4195\workspace\BuzzApi.com\src\main\resources
+2019-04-11 19:32:14,067 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-11 19:32:14,068 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Scripts\4195\workspace\BuzzApi.com\src\test\resources
