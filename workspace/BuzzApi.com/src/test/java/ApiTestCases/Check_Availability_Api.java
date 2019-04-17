@@ -51,7 +51,7 @@ public class Check_Availability_Api extends TestBase{
 
 		JSONObject jsonResult = (JSONObject) (jp.parse(responseBody));
 		
-		JSONObject jsonStatus = (JSONObject) (jsonResult.get("status"));
+		//JSONObject jsonStatus = (JSONObject) (jsonResult.get("status"));
 
 		JSONObject JsonMeta = (JSONObject) (jsonResult.get("meta"));
 
@@ -61,6 +61,7 @@ public class Check_Availability_Api extends TestBase{
 		System.out.println("Status is: "+Status);
 		
 		String fp_id = jsonFP.get("fp_id").toString();
+		
 		System.out.println("Fp_Id is: " +fp_id);
 		
 		String  reference_id= JsonMeta.get("request_reference_id").toString();

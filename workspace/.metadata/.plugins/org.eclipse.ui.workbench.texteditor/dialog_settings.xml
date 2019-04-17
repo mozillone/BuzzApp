@@ -7,6 +7,7 @@
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="package ApiTestCases;"/>
 		</list>
 		<list key="replacehistory">
 		</list>
