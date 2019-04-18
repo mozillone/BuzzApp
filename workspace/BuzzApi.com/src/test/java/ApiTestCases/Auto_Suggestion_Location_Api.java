@@ -1,16 +1,15 @@
 package ApiTestCases;
 
 import java.io.FileNotFoundException;
+import java.util.List;
 import java.util.ArrayList;
-
-import org.json.simple.JSONArray;
+import java.util.Arrays;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.ParseException;
 import org.testng.annotations.Test;
 
 import com.jayway.restassured.RestAssured;
 import com.jayway.restassured.response.Response;
-import com.jayway.restassured.specification.RequestSenderOptions;
 import com.jayway.restassured.specification.RequestSpecification;
 
 import Base.TestBase;
@@ -35,7 +34,7 @@ public class Auto_Suggestion_Location_Api extends TestBase{
 		RequestSpecification request = RestAssured.given().header("Authorization",
 				"Bearer 5e0a50d50229b7f0a49c2c6f814e01a9258ac927");
 
-		request.header("Content-Type", "application/json");
+		request.header("Content-Type", "application/json"); 
 
 		JSONObject requestParams = new JSONObject(); 
 		
@@ -49,14 +48,23 @@ public class Auto_Suggestion_Location_Api extends TestBase{
 		jo.put("location_type", "locality");
 		jo.put("location_type", "region");*/
 		
-		ArrayList<String>  list= new ArrayList<String>();
+//		ArrayList<String>  list= new ArrayList<String>();
+		String[] stringArray = {"postal","locality","region"};
+		@SuppressWarnings("rawtypes")
+		List<String> stringList = new ArrayList(Arrays.asList(stringArray));
+		
 		//JSONArray arrayObj = new JSONArray();
-		list.add("postal");
-		list.add("locality");
-		list.add("region");
+//		list.add("postal");
+//		
+//		list.add("locality");
+//		
+//		list.add("region");
+		
+//		list.add(["postal","locality","region"]);
 		
 		
-		requestParams.put( "location_type",new JSONArray());
+//		requestParams.put( "location_type",new JSONArray());
+		requestParams.put( "location_type",stringList); 
 		
 		request.body(requestParams.toString()); 
 

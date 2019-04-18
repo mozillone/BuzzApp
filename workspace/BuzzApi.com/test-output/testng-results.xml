@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2382" started-at="2019-04-17T07:09:18Z" finished-at="2019-04-17T07:09:20Z">
+  <suite name="Default suite" duration-ms="2789" started-at="2019-04-18T05:13:58Z" finished-at="2019-04-18T05:14:00Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2382" started-at="2019-04-17T07:09:18Z" finished-at="2019-04-17T07:09:20Z">
+    <test name="Default test" duration-ms="2789" started-at="2019-04-18T05:13:58Z" finished-at="2019-04-18T05:14:00Z">
       <class name="ApiTestCases.Auto_Suggestion_Location_Api">
-        <test-method status="PASS" signature="Verify_Auto_Suggestion_Location_Api()[pri:0, instance:ApiTestCases.Auto_Suggestion_Location_Api@28d25987]" name="Verify_Auto_Suggestion_Location_Api" duration-ms="2356" started-at="2019-04-17T12:39:18Z" finished-at="2019-04-17T12:39:20Z">
+        <test-method status="PASS" signature="Verify_Auto_Suggestion_Location_Api()[pri:0, instance:ApiTestCases.Auto_Suggestion_Location_Api@28d25987]" name="Verify_Auto_Suggestion_Location_Api" duration-ms="2760" started-at="2019-04-18T10:43:58Z" finished-at="2019-04-18T10:44:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Auto_Suggestion_Location_Api -->
