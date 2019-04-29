@@ -1,11 +1,20 @@
 package ApiTestCases;
 
 import java.io.FileNotFoundException;
+import java.util.Properties;
+
+import javax.activation.*;
+import javax.mail.*;
+import javax.mail.internet.InternetAddress;
+import javax.mail.internet.MimeBodyPart;
+import javax.mail.internet.MimeMessage;
+import javax.mail.internet.MimeMultipart;
 import java.io.IOException;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.ParseException;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -14,9 +23,18 @@ import com.jayway.restassured.RestAssured;
 import com.jayway.restassured.response.Response;
 import com.jayway.restassured.specification.RequestSpecification;
 
-public class MobileResponsiveApi {
+import Base.TestBase;
+import Util.SendMailSSLWithAttachment;
+import Util.emailReport;
 
-	public MobileResponsiveApi() {
+public class MobileResponsiveApi extends TestBase{
+	emailReport EmailReport;
+	
+	SendMailSSLWithAttachment  sendMailSSLWithAttachment;
+
+	public MobileResponsiveApi() throws FileNotFoundException {
+		sendMailSSLWithAttachment = new SendMailSSLWithAttachment();
+		EmailReport = new emailReport();
 
 	}
 
@@ -42,6 +60,7 @@ public class MobileResponsiveApi {
 		JSONObject requestParams = new JSONObject();
 
 		requestParams.put("url", HostName);
+		//requestParams.put("url", "https://support.office.com");
 
 		System.out.println("Host Name is " + HostName);
 
@@ -62,8 +81,13 @@ public class MobileResponsiveApi {
 		// int statuscode = response.getStatusCode();
 
 		// Assert.assertEquals(status, statuscode);
-
+		try {
 		Assert.assertEquals(status, response.getStatusCode());
+		} catch(Error e){
+			// Following lines will be printed when the assert condition fails
+			System.out.println("Assert not equals failed. But test execution is not aborted.");
+			System.out.println("Error message: " + e.toString());
+		}
 
 		// System.out.println("Response Body is =>" + responseBody);
 
@@ -101,6 +125,8 @@ public class MobileResponsiveApi {
 	public void Quit() {
 
 		System.out.println("Completed the execution");
-
+ 
 	}
+	
+	
 }

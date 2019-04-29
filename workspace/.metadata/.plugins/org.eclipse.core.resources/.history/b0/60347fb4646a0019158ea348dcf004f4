@@ -1,0 +1,28 @@
+package ApiTestExecutions;
+
+import java.io.FileNotFoundException;
+
+import org.testng.annotations.BeforeClass;
+
+import com.jayway.restassured.RestAssured;
+
+import Base.TestBase;
+
+public class Beta_Domain_Details_Api extends TestBase{
+	
+	//String sheetName = "Sheet2";
+
+	public Beta_Domain_Details_Api() throws FileNotFoundException {
+		super();
+		// TODO Auto-generated constructor stub
+		
+	}
+	
+	@BeforeClass
+	public void setBaseUri() {
+		// TODO Auto-generated method stub
+		RestAssured.baseURI = "http://beta.discover-prospects.com:8086/v4";
+		
+	}
+
+}

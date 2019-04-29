@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="ApiTestCases.Domain_Details_Api">
+      <class name="ApiTestExecutions.Beta_Check_Availability_Api">
         <methods>
-          <include name="Verify_CheckAvailabilityApi"/>
+          <include name="setBaseUri"/>
+          <include name="Verify_Beta_CheckAvailabilityApi"/>
+          <include name="Quit"/>
         </methods>
-      </class> <!-- ApiTestCases.Domain_Details_Api -->
+      </class> <!-- ApiTestExecutions.Beta_Check_Availability_Api -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

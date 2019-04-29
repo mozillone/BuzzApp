@@ -1,0 +1,42 @@
+package ApiTestExecutions;
+
+import java.io.FileNotFoundException;
+
+import org.json.simple.JSONObject;
+import org.json.simple.parser.ParseException;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
+import com.jayway.restassured.RestAssured;
+import com.jayway.restassured.specification.RequestSpecification;
+
+import Base.TestBase;
+
+public class Beta_Domain_Details_Api extends TestBase{
+	
+	//String sheetName = "Sheet2";
+
+	public Beta_Domain_Details_Api() throws FileNotFoundException {
+		super();
+		// TODO Auto-generated constructor stub
+		
+	}
+	
+	@BeforeClass
+	public void setBaseUri() {
+		// TODO Auto-generated method stub
+		RestAssured.baseURI = "http://beta.discover-prospects.com:8086/v4";
+		
+	}
+	@SuppressWarnings("unchecked")
+	@Test/*(dataProvider = "getBuzzApiTestData")*/
+	//public void Verify_Beta_Domain_Details_Api(String HostName) throws ParseException, FileNotFoundException {
+	public void Verify_Beta_Domain_Details_Api() throws ParseException, FileNotFoundException {
+		RequestSpecification request = RestAssured.given().header("Authorization",
+				"Bearer 5e0a50d50229b7f0a49c2c6f814e01a9258ac927");
+	
+		request.header("Content-Type", "application/json");
+
+		JSONObject requestParams = new JSONObject();
+
+}

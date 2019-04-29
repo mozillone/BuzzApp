@@ -1,17 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2789" started-at="2019-04-18T05:13:58Z" finished-at="2019-04-18T05:14:00Z">
+  <suite name="Default suite" duration-ms="3936" started-at="2019-04-29T11:14:34Z" finished-at="2019-04-29T11:14:38Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2789" started-at="2019-04-18T05:13:58Z" finished-at="2019-04-18T05:14:00Z">
-      <class name="ApiTestCases.Auto_Suggestion_Location_Api">
-        <test-method status="PASS" signature="Verify_Auto_Suggestion_Location_Api()[pri:0, instance:ApiTestCases.Auto_Suggestion_Location_Api@28d25987]" name="Verify_Auto_Suggestion_Location_Api" duration-ms="2760" started-at="2019-04-18T10:43:58Z" finished-at="2019-04-18T10:44:00Z">
+    <test name="Default test" duration-ms="3936" started-at="2019-04-29T11:14:34Z" finished-at="2019-04-29T11:14:38Z">
+      <class name="ApiTestExecutions.Beta_Domain_Details_Api">
+        <test-method status="PASS" signature="setBaseUri()[pri:0, instance:ApiTestExecutions.Beta_Domain_Details_Api@3e6fa38a]" name="setBaseUri" is-config="true" duration-ms="356" started-at="2019-04-29T16:44:34Z" finished-at="2019-04-29T16:44:35Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Verify_Auto_Suggestion_Location_Api -->
-      </class> <!-- ApiTestCases.Auto_Suggestion_Location_Api -->
+        </test-method> <!-- setBaseUri -->
+        <test-method status="PASS" signature="Verify_Beta_Domain_Details_Api()[pri:0, instance:ApiTestExecutions.Beta_Domain_Details_Api@3e6fa38a]" name="Verify_Beta_Domain_Details_Api" duration-ms="1675" started-at="2019-04-29T16:44:35Z" finished-at="2019-04-29T16:44:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Beta_Domain_Details_Api -->
+      </class> <!-- ApiTestExecutions.Beta_Domain_Details_Api -->
+      <class name="ApiTestExecutions.Beta_Check_Availability_Api">
+        <test-method status="FAIL" signature="Verify_Beta_CheckAvailabilityApi()[pri:0, instance:ApiTestExecutions.Beta_Check_Availability_Api@66a3ffec]" name="Verify_Beta_CheckAvailabilityApi" duration-ms="679" started-at="2019-04-29T16:44:36Z" finished-at="2019-04-29T16:44:37Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at ApiTestExecutions.Beta_Check_Availability_Api.Verify_Beta_CheckAvailabilityApi(Beta_Check_Availability_Api.java:87)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Beta_CheckAvailabilityApi -->
+        <test-method status="PASS" signature="setBaseUri()[pri:0, instance:ApiTestExecutions.Beta_Check_Availability_Api@66a3ffec]" name="setBaseUri" is-config="true" duration-ms="0" started-at="2019-04-29T16:44:36Z" finished-at="2019-04-29T16:44:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBaseUri -->
+        <test-method status="PASS" signature="Quit()[pri:0, instance:ApiTestExecutions.Beta_Check_Availability_Api@66a3ffec]" name="Quit" is-config="true" duration-ms="0" started-at="2019-04-29T16:44:37Z" finished-at="2019-04-29T16:44:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Quit -->
+      </class> <!-- ApiTestExecutions.Beta_Check_Availability_Api -->
+      <class name="ApiTestExecutions.Beta_MobileResponsiveApi">
+        <test-method status="PASS" signature="setBaseUri()[pri:0, instance:ApiTestExecutions.Beta_MobileResponsiveApi@77caeb3e]" name="setBaseUri" is-config="true" duration-ms="0" started-at="2019-04-29T16:44:37Z" finished-at="2019-04-29T16:44:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBaseUri -->
+        <test-method status="PASS" signature="Verify_Beta_MobileResponsiveApi()[pri:0, instance:ApiTestExecutions.Beta_MobileResponsiveApi@77caeb3e]" name="Verify_Beta_MobileResponsiveApi" duration-ms="1202" started-at="2019-04-29T16:44:37Z" finished-at="2019-04-29T16:44:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Beta_MobileResponsiveApi -->
+        <test-method status="PASS" signature="Quit()[pri:0, instance:ApiTestExecutions.Beta_MobileResponsiveApi@77caeb3e]" name="Quit" is-config="true" duration-ms="1" started-at="2019-04-29T16:44:38Z" finished-at="2019-04-29T16:44:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Quit -->
+      </class> <!-- ApiTestExecutions.Beta_MobileResponsiveApi -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

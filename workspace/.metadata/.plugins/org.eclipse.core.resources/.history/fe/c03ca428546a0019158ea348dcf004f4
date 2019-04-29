@@ -1,0 +1,5 @@
+package ApiTestExecutions;
+
+public class Check_Availability_Api {
+
+}

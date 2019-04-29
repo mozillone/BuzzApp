@@ -1,0 +1,16 @@
+package ApiTestExecutions;
+
+import java.io.FileNotFoundException;
+
+import Base.TestBase;
+
+public class Beta_Domain_Details_Api extends TestBase{
+	
+	Sheet sheetname ="";
+
+	public Beta_Domain_Details_Api() throws FileNotFoundException {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+}
